@@ -1,0 +1,23 @@
+.empty {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12%;
+    margin-top:-12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__message {
+        color:#808080;
+        font-weight: 400;
+        font-size: 2.2rem;
+    }
+    &__icon {
+        font-size: 5rem;
+        color:#808080;
+    }
+}

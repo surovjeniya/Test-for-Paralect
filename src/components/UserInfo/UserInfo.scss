@@ -1,0 +1,25 @@
+.user-info {
+    @media screen and (max-width:480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    &__avatar {
+        border-radius: 50%;
+        margin-bottom: 3rem;
+        max-width: 280px;
+        max-height: 280px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 2.6rem;
+        margin-bottom: 1.5rem;
+    }
+    &__login {
+        text-decoration: none;
+        color:#0064EB;
+        margin-bottom: 2.5rem;
+    }
+}

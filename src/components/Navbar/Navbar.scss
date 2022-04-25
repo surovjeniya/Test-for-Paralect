@@ -1,0 +1,13 @@
+.nav-bar {
+    background: #0064EB;
+    margin-bottom: 3rem;
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        margin-right: 2.2rem;
+        color:#fff;
+        font-size: 4rem;
+    }
+}
